@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+    class Program
+    {
+    struct car {
+       public string Brand;
+        public string Model;
+        public string Type;
+    }
+    
+        static void Main(string[] args)
+        {
+        car c;
+        c.Brand="Tata";
+        c.Model="Nano";
+        c.Type="Diesel";
+        Console.WriteLine(c.Brand);
+        Console.WriteLine(c.Model);
+        Console.WriteLine(c.Type);
+        }
+    }
+}
