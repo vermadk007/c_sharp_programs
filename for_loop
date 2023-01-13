@@ -1,0 +1,14 @@
+using System;
+public class loop
+{
+
+    public static void Main(String[] args)
+    {
+        //for Loop
+        for(int i=2;i<=20;i=i+2)
+        {
+            Console.WriteLine(i);
+        }             
+        Console.ReadLine();
+    }
+}
