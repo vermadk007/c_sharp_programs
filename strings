@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string a = "hello world";
+            Console.WriteLine(a.Length);
+            //Outputs 11
+        
+
+            Console.WriteLine(a.IndexOf('o'));
+            //Outputs 4
+
+             a = a.Insert(0, "This is ");
+            Console.WriteLine(a);
+            //Outputs "This is hello world"
+
+            a = a.Replace("This is", "I am");
+            Console.WriteLine(a);
+            //Outputs "I am hello world"
+
+            if(a.Contains("hello"))
+                Console.WriteLine("found");
+            //Outputs "found"
+
+            a = a.Remove(4);
+            Console.WriteLine(a);
+            //Outputs "I am"
+
+            a = a.Substring(2);
+            Console.WriteLine(a);
+           
+            //Outputs "am"
+        }
+    }
+}
