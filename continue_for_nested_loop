@@ -17,7 +17,6 @@ public class continueForNestedLoop
            }
         
         }
-        Console.WriteLine("After the loop");
         Console.ReadLine();
     }
 }
