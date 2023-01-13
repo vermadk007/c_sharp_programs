@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string english="";
+            english=Console.ReadLine();
+            string reverseString="";
+            int Length=0;
+            Length  =  english.Length-1;
+            while(Length >=0)
+            {
+                reverseString=reverseString + english[Length];
+                Length--;
+            }
+            Console.WriteLine("Reverse for the input string is - "+reverseString);
+            Console.ReadLine();
+        }
+    }
+}
