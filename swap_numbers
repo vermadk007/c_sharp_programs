@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleProgramming
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            SwapNumbers();
+        }
+       
+        //Swap two numbers
+        public static void SwapNumbers()
+        {
+            int a = 10, b = 5;
+            Console.WriteLine("Before swapping numbers are a={0},b={1}", a, b);
+            a = a - b;
+            b = a + b;
+            Console.WriteLine("After swapping numbers are a={0}, b={1}", a, b);
+            Console.ReadLine();
+        }
+     }
+}
